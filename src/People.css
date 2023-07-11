@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+button{
+    width: 100%;
+    margin-top: 20px;
+    background-color:blueviolet ;
+    border: none;
+    border-radius:5px;
+    height: 23px;
+    color: white;
+    font-size: 1rem;
+    transition:0.3s;
+}
+button:hover{
+    background-color:rgb(77, 8, 142);
+    cursor: pointer;
+}
